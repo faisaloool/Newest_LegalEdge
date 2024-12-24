@@ -52,7 +52,7 @@ Partial Class frmClientLogin
         Me.MenuStrip1.Location = New System.Drawing.Point(532, 18)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(6, 1, 0, 1)
-        Me.MenuStrip1.Size = New System.Drawing.Size(320, 31)
+        Me.MenuStrip1.Size = New System.Drawing.Size(525, 31)
         Me.MenuStrip1.TabIndex = 4
         Me.MenuStrip1.Text = "MenuStrip1"
         '

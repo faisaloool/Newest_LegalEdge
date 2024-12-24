@@ -27,7 +27,7 @@
     End Sub
 
     Private Sub HomeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HomeToolStripMenuItem.Click
-        frmMainScreen.Show()
+        frmHome.Show()
         Me.Hide()
     End Sub
 
@@ -36,5 +36,8 @@
         Me.Hide()
     End Sub
 
-
+    Private Sub ServeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ServeToolStripMenuItem.Click
+        frmServices.Show()
+        Me.Close()
+    End Sub
 End Class

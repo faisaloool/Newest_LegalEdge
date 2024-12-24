@@ -52,10 +52,10 @@ Partial Class frmLogin
         Me.MenuStrip1.Font = New System.Drawing.Font("Lucida Fax", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HomeToolStripMenuItem, Me.ServeToolStripMenuItem, Me.ContactToolStripMenuItem, Me.LoginToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(520, 24)
+        Me.MenuStrip1.Location = New System.Drawing.Point(520, 26)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(6, 1, 0, 1)
-        Me.MenuStrip1.Size = New System.Drawing.Size(405, 31)
+        Me.MenuStrip1.Size = New System.Drawing.Size(525, 31)
         Me.MenuStrip1.TabIndex = 3
         Me.MenuStrip1.Text = "MenuStrip1"
         '

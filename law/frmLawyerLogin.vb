@@ -12,7 +12,7 @@ Public Class frmLawyerLogin
         con.Open()
     End Sub
     Private Sub HomeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HomeToolStripMenuItem.Click
-        frmMainScreen.Show()
+        frmHome.Show()
         Me.Hide()
     End Sub
 
@@ -48,5 +48,8 @@ Public Class frmLawyerLogin
         End Try
     End Sub
 
-
+    Private Sub ServeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ServeToolStripMenuItem.Click
+        frmServices.Show()
+        Me.Hide()
+    End Sub
 End Class

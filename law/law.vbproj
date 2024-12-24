@@ -88,11 +88,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmMainScreen.vb">
+    <Compile Include="frmServices.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMainScreen.Designer.vb">
-      <DependentUpon>frmMainScreen.vb</DependentUpon>
+    <Compile Include="frmServices.Designer.vb">
+      <DependentUpon>frmServices.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmLawyer.Designer.vb">
@@ -101,10 +101,10 @@
     <Compile Include="frmLawyer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAboutUs.Designer.vb">
-      <DependentUpon>frmAboutUs.vb</DependentUpon>
+    <Compile Include="frmHome.Designer.vb">
+      <DependentUpon>frmHome.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmAboutUs.vb">
+    <Compile Include="frmHome.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmManager.Designer.vb">
@@ -191,14 +191,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmMainScreen.resx">
-      <DependentUpon>frmMainScreen.vb</DependentUpon>
+    <EmbeddedResource Include="frmServices.resx">
+      <DependentUpon>frmServices.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLawyer.resx">
       <DependentUpon>frmLawyer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAboutUs.resx">
-      <DependentUpon>frmAboutUs.vb</DependentUpon>
+    <EmbeddedResource Include="frmHome.resx">
+      <DependentUpon>frmHome.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmManager.resx">
       <DependentUpon>frmManager.vb</DependentUpon>

@@ -46,7 +46,7 @@ Partial Class frmLawyer
         Me.lblName = New System.Windows.Forms.Label()
         Me.lblEmail = New System.Windows.Forms.Label()
         Me.lblPhone = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.lblLawyerID = New System.Windows.Forms.Label()
         Me.lblBirthdate = New System.Windows.Forms.Label()
         Me.lblNationality = New System.Windows.Forms.Label()
         Me.lblAddress = New System.Windows.Forms.Label()
@@ -55,6 +55,8 @@ Partial Class frmLawyer
         Me.PictureBox11 = New System.Windows.Forms.PictureBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -114,13 +116,13 @@ Partial Class frmLawyer
         'LogoutToolStripMenuItem
         '
         Me.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
         Me.LogoutToolStripMenuItem.Text = "Logout"
         '
         'ChangePasswordToolStripMenuItem
         '
         Me.ChangePasswordToolStripMenuItem.Name = "ChangePasswordToolStripMenuItem"
-        Me.ChangePasswordToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ChangePasswordToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
         Me.ChangePasswordToolStripMenuItem.Text = "Change Password"
         '
         'AddToolStripMenuItem
@@ -134,13 +136,13 @@ Partial Class frmLawyer
         'NewCaseToolStripMenuItem
         '
         Me.NewCaseToolStripMenuItem.Name = "NewCaseToolStripMenuItem"
-        Me.NewCaseToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.NewCaseToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.NewCaseToolStripMenuItem.Text = "New Case"
         '
         'NewClientToolStripMenuItem
         '
         Me.NewClientToolStripMenuItem.Name = "NewClientToolStripMenuItem"
-        Me.NewClientToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.NewClientToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.NewClientToolStripMenuItem.Text = "New Client"
         '
         'PictureBox1
@@ -293,18 +295,18 @@ Partial Class frmLawyer
         Me.lblPhone.Tag = "Phone Number : "
         Me.lblPhone.Text = "Phone Number : 079********" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'Label5
+        'lblLawyerID
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Lucida Bright", 9.0!)
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(231, 226)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(116, 15)
-        Me.Label5.TabIndex = 15
-        Me.Label5.Tag = "Lawyer ID : "
-        Me.Label5.Text = "Lawyer ID : 154854" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.lblLawyerID.AutoSize = True
+        Me.lblLawyerID.Font = New System.Drawing.Font("Lucida Bright", 9.0!)
+        Me.lblLawyerID.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.lblLawyerID.Location = New System.Drawing.Point(231, 226)
+        Me.lblLawyerID.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblLawyerID.Name = "lblLawyerID"
+        Me.lblLawyerID.Size = New System.Drawing.Size(116, 15)
+        Me.lblLawyerID.TabIndex = 15
+        Me.lblLawyerID.Tag = "Lawyer ID : "
+        Me.lblLawyerID.Text = "Lawyer ID : 154854" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'lblBirthdate
         '
@@ -395,10 +397,26 @@ Partial Class frmLawyer
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 385)
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 356)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(283, 222)
+        Me.DataGridView1.Size = New System.Drawing.Size(269, 251)
         Me.DataGridView1.TabIndex = 23
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(467, 422)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 24
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(400, 425)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.TabIndex = 25
+        Me.Label2.Text = "Label2"
         '
         'frmLawyer
         '
@@ -406,6 +424,8 @@ Partial Class frmLawyer
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(852, 619)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.PictureBox11)
@@ -414,7 +434,7 @@ Partial Class frmLawyer
         Me.Controls.Add(Me.lblAddress)
         Me.Controls.Add(Me.lblNationality)
         Me.Controls.Add(Me.lblBirthdate)
-        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.lblLawyerID)
         Me.Controls.Add(Me.lblPhone)
         Me.Controls.Add(Me.lblEmail)
         Me.Controls.Add(Me.lblName)
@@ -474,7 +494,7 @@ Partial Class frmLawyer
     Friend WithEvents lblName As Label
     Friend WithEvents lblEmail As Label
     Friend WithEvents lblPhone As Label
-    Friend WithEvents Label5 As Label
+    Friend WithEvents lblLawyerID As Label
     Friend WithEvents lblBirthdate As Label
     Friend WithEvents lblNationality As Label
     Friend WithEvents lblAddress As Label
@@ -483,4 +503,6 @@ Partial Class frmLawyer
     Friend WithEvents PictureBox11 As PictureBox
     Friend WithEvents Label10 As Label
     Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label2 As Label
 End Class

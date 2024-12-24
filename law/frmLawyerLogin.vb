@@ -36,7 +36,7 @@ Public Class frmLawyerLogin
                 MessageBox.Show("Login Successfully")
                 frmLawyer.Show()
                 reader.Read()
-                frmLawyer.fillForm(reader("Name").ToString, reader("Email").ToString, reader("PhoneNumber").ToString, reader("Birthdate").ToString, reader("Nationality").ToString, reader("Address").ToString, reader("Role").ToString)
+                frmLawyer.fillForm(reader("Name").ToString, reader("Email").ToString, reader("PhoneNumber").ToString, reader("Birthdate").ToString, reader("Nationality").ToString, reader("Address").ToString, reader("Role").ToString, reader("Lawyer_ID").ToString, reader("Password").ToString)
                 Me.Close()
 
             Else

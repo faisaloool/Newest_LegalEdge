@@ -7,7 +7,7 @@ Public Class frmLawyer
     Private Sub frmLawyer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
-    Public Sub fillForm(name As String, email As String, phone As String, birthdate As String, nationality As String, address As String, role As String)
+    Public Sub fillForm(name As String, email As String, phone As String, birthdate As String, nationality As String, address As String, role As String, lawyerID As String, password As String)
         lblAddress.Text = lblAddress.Tag + address
         lblBirthdate.Text = lblBirthdate.Tag + birthdate
         lblEmail.Text = lblEmail.Tag + email
@@ -15,6 +15,10 @@ Public Class frmLawyer
         lblPhone.Text = lblPhone.Tag + phone
         lblRole.Text = lblRole.Tag + role
         lblNationality.Text = lblNationality.Tag + nationality
+        lblLawyerID.Text = lblLawyerID.Tag + lawyerID
+
+        frmUpdatePassword.oldPassword = password
+        frmUpdatePassword.SignedInID = lawyerID
     End Sub
 
     Private Sub ChangePasswordToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChangePasswordToolStripMenuItem.Click

@@ -107,13 +107,13 @@ Partial Class frmClient
         'LogoutToolStripMenuItem
         '
         Me.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
+        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.LogoutToolStripMenuItem.Text = "Logout"
         '
         'ChangePasswordToolStripMenuItem
         '
         Me.ChangePasswordToolStripMenuItem.Name = "ChangePasswordToolStripMenuItem"
-        Me.ChangePasswordToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
+        Me.ChangePasswordToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ChangePasswordToolStripMenuItem.Text = "Change Password"
         '
         'Label10

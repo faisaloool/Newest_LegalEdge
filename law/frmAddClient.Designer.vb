@@ -109,7 +109,7 @@ Partial Class frmAddClient
         '
         Me.PictureBox1.Image = Global.law.My.Resources.Resources.name
         Me.PictureBox1.Location = New System.Drawing.Point(262, 47)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(135, 95)
         Me.PictureBox1.TabIndex = 66
@@ -133,7 +133,7 @@ Partial Class frmAddClient
         Me.txtName.Font = New System.Drawing.Font("Lucida Bright", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtName.ForeColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.txtName.Location = New System.Drawing.Point(52, 188)
-        Me.txtName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtName.Margin = New System.Windows.Forms.Padding(2)
         Me.txtName.Name = "txtName"
         Me.txtName.Size = New System.Drawing.Size(148, 24)
         Me.txtName.TabIndex = 68
@@ -146,7 +146,7 @@ Partial Class frmAddClient
         Me.Button1.Font = New System.Drawing.Font("Lucida Bright", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(281, 336)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(116, 31)
         Me.Button1.TabIndex = 77
@@ -159,7 +159,7 @@ Partial Class frmAddClient
         Me.txtNationalIDNumber.Font = New System.Drawing.Font("Lucida Bright", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNationalIDNumber.ForeColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.txtNationalIDNumber.Location = New System.Drawing.Point(262, 188)
-        Me.txtNationalIDNumber.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNationalIDNumber.Margin = New System.Windows.Forms.Padding(2)
         Me.txtNationalIDNumber.Name = "txtNationalIDNumber"
         Me.txtNationalIDNumber.Size = New System.Drawing.Size(148, 22)
         Me.txtNationalIDNumber.TabIndex = 78
@@ -172,7 +172,7 @@ Partial Class frmAddClient
         Me.txtEmail.Font = New System.Drawing.Font("Lucida Bright", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtEmail.ForeColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.txtEmail.Location = New System.Drawing.Point(478, 188)
-        Me.txtEmail.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtEmail.Margin = New System.Windows.Forms.Padding(2)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(148, 24)
         Me.txtEmail.TabIndex = 79
@@ -185,7 +185,7 @@ Partial Class frmAddClient
         Me.txtBirthdate.Font = New System.Drawing.Font("Lucida Bright", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtBirthdate.ForeColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.txtBirthdate.Location = New System.Drawing.Point(478, 237)
-        Me.txtBirthdate.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtBirthdate.Margin = New System.Windows.Forms.Padding(2)
         Me.txtBirthdate.Name = "txtBirthdate"
         Me.txtBirthdate.Size = New System.Drawing.Size(148, 24)
         Me.txtBirthdate.TabIndex = 82
@@ -198,7 +198,7 @@ Partial Class frmAddClient
         Me.txtNationality.Font = New System.Drawing.Font("Lucida Bright", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNationality.ForeColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.txtNationality.Location = New System.Drawing.Point(262, 237)
-        Me.txtNationality.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNationality.Margin = New System.Windows.Forms.Padding(2)
         Me.txtNationality.Name = "txtNationality"
         Me.txtNationality.Size = New System.Drawing.Size(148, 24)
         Me.txtNationality.TabIndex = 81
@@ -211,7 +211,7 @@ Partial Class frmAddClient
         Me.txtPhone.Font = New System.Drawing.Font("Lucida Bright", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPhone.ForeColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.txtPhone.Location = New System.Drawing.Point(52, 237)
-        Me.txtPhone.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPhone.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPhone.Name = "txtPhone"
         Me.txtPhone.Size = New System.Drawing.Size(148, 24)
         Me.txtPhone.TabIndex = 80
@@ -224,7 +224,7 @@ Partial Class frmAddClient
         Me.txtPassword.Font = New System.Drawing.Font("Lucida Bright", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPassword.ForeColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.txtPassword.Location = New System.Drawing.Point(478, 281)
-        Me.txtPassword.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPassword.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.Size = New System.Drawing.Size(148, 24)
         Me.txtPassword.TabIndex = 85
@@ -237,7 +237,7 @@ Partial Class frmAddClient
         Me.txtAddress.Font = New System.Drawing.Font("Lucida Bright", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAddress.ForeColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.txtAddress.Location = New System.Drawing.Point(262, 281)
-        Me.txtAddress.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAddress.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAddress.Name = "txtAddress"
         Me.txtAddress.Size = New System.Drawing.Size(148, 24)
         Me.txtAddress.TabIndex = 84
@@ -252,7 +252,7 @@ Partial Class frmAddClient
         Me.comboGender.FormattingEnabled = True
         Me.comboGender.Items.AddRange(New Object() {"Male", "Female"})
         Me.comboGender.Location = New System.Drawing.Point(52, 281)
-        Me.comboGender.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.comboGender.Margin = New System.Windows.Forms.Padding(2)
         Me.comboGender.Name = "comboGender"
         Me.comboGender.Size = New System.Drawing.Size(148, 24)
         Me.comboGender.TabIndex = 86
@@ -277,7 +277,7 @@ Partial Class frmAddClient
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmAddClient"
         Me.Text = "Add Client"
         Me.MenuStrip1.ResumeLayout(False)

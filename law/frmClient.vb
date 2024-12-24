@@ -12,4 +12,8 @@
         lblNationalID.Text = lblNationalID.Tag + nationalID
     End Sub
 
+    Private Sub LogoutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LogoutToolStripMenuItem.Click
+        frmHome.Show()
+        Me.Hide()
+    End Sub
 End Class

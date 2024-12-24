@@ -1,3 +1,3 @@
-﻿Public Class frmAboutUs
+﻿Public Class frmHome
 
 End Class

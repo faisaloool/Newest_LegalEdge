@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C820829-C376-4140-A43C-81F7C062F8C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>law.My.MyApplication</StartupObject>
+    <RootNamespace>law</RootNamespace>
+    <AssemblyName>law</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>law.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>law.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmMainScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainScreen.Designer.vb">
+      <DependentUpon>frmMainScreen.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLawyer.Designer.vb">
+      <DependentUpon>frmLawyer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLawyer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAboutUs.Designer.vb">
+      <DependentUpon>frmAboutUs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAboutUs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManager.Designer.vb">
+      <DependentUpon>frmManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddClient.Designer.vb">
+      <DependentUpon>frmAddClient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddClient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddLawyer.Designer.vb">
+      <DependentUpon>frmAddLawyer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddLawyer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContact.Designer.vb">
+      <DependentUpon>frmContact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmContact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClientLogin.Designer.vb">
+      <DependentUpon>frmClientLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClientLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLawyerLogin.Designer.vb">
+      <DependentUpon>frmLawyerLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLawyerLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditCase.Designer.vb">
+      <DependentUpon>frmEditCase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditCase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCase.Designer.vb">
+      <DependentUpon>frmAddCase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdatePassword.Designer.vb">
+      <DependentUpon>frmUpdatePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdatePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClient.Designer.vb">
+      <DependentUpon>frmClient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmMainScreen.resx">
+      <DependentUpon>frmMainScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLawyer.resx">
+      <DependentUpon>frmLawyer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAboutUs.resx">
+      <DependentUpon>frmAboutUs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManager.resx">
+      <DependentUpon>frmManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddClient.resx">
+      <DependentUpon>frmAddClient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddLawyer.resx">
+      <DependentUpon>frmAddLawyer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContact.resx">
+      <DependentUpon>frmContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClientLogin.resx">
+      <DependentUpon>frmClientLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLawyerLogin.resx">
+      <DependentUpon>frmLawyerLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditCase.resx">
+      <DependentUpon>frmEditCase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCase.resx">
+      <DependentUpon>frmAddCase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdatePassword.resx">
+      <DependentUpon>frmUpdatePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClient.resx">
+      <DependentUpon>frmClient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map - Copy.png" />
+    <None Include="Resources\logo1.png" />
+    <None Include="Resources\logo1 - Copy.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\logo - Copy.png" />
+    <None Include="Resources\Lawyer prof.jpg" />
+    <None Include="Resources\Lawyer prof - Copy.jpg" />
+    <None Include="Resources\ID.png" />
+    <None Include="Resources\ID - Copy.png" />
+    <None Include="Resources\gender.png" />
+    <None Include="Resources\gender - Copy.png" />
+    <None Include="Resources\email1.png" />
+    <None Include="Resources\email1 - Copy.png" />
+    <None Include="Resources\email.png" />
+    <None Include="Resources\email - Copy.png" />
+    <None Include="Resources\call.png" />
+    <None Include="Resources\call - Copy.png" />
+    <None Include="Resources\calender.png" />
+    <None Include="Resources\calender - Copy.png" />
+    <None Include="Resources\Bline.png" />
+    <None Include="Resources\Bline - Copy.png" />
+    <None Include="Resources\role.png" />
+    <None Include="Resources\role - Copy.png" />
+    <None Include="Resources\pic4.png" />
+    <None Include="Resources\pic4 - Copy.png" />
+    <None Include="Resources\pic3.png" />
+    <None Include="Resources\pic3 - Copy.png" />
+    <None Include="Resources\pic2.png" />
+    <None Include="Resources\pic2 - Copy.png" />
+    <None Include="Resources\pic1.jpg" />
+    <None Include="Resources\pic1 - Copy.jpg" />
+    <None Include="Resources\nationality.png" />
+    <None Include="Resources\nationality - Copy.png" />
+    <None Include="Resources\name.png" />
+    <None Include="Resources\name - Copy.png" />
+    <None Include="Resources\Map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LegalEdgeDatabase.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LegalEdgeDatabase_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>LegalEdgeDatabase.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

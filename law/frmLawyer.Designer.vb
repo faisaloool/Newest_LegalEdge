@@ -54,6 +54,7 @@ Partial Class frmLawyer
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.PictureBox11 = New System.Windows.Forms.PictureBox()
         Me.Label10 = New System.Windows.Forms.Label()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -66,6 +67,7 @@ Partial Class frmLawyer
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -112,13 +114,13 @@ Partial Class frmLawyer
         'LogoutToolStripMenuItem
         '
         Me.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
+        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.LogoutToolStripMenuItem.Text = "Logout"
         '
         'ChangePasswordToolStripMenuItem
         '
         Me.ChangePasswordToolStripMenuItem.Name = "ChangePasswordToolStripMenuItem"
-        Me.ChangePasswordToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
+        Me.ChangePasswordToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ChangePasswordToolStripMenuItem.Text = "Change Password"
         '
         'AddToolStripMenuItem
@@ -132,13 +134,13 @@ Partial Class frmLawyer
         'NewCaseToolStripMenuItem
         '
         Me.NewCaseToolStripMenuItem.Name = "NewCaseToolStripMenuItem"
-        Me.NewCaseToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
+        Me.NewCaseToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.NewCaseToolStripMenuItem.Text = "New Case"
         '
         'NewClientToolStripMenuItem
         '
         Me.NewClientToolStripMenuItem.Name = "NewClientToolStripMenuItem"
-        Me.NewClientToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
+        Me.NewClientToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.NewClientToolStripMenuItem.Text = "New Client"
         '
         'PictureBox1
@@ -390,12 +392,21 @@ Partial Class frmLawyer
         Me.Label10.TabIndex = 22
         Me.Label10.Text = "Cases" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
+        'DataGridView1
+        '
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 385)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(283, 222)
+        Me.DataGridView1.TabIndex = 23
+        '
         'frmLawyer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(852, 536)
+        Me.ClientSize = New System.Drawing.Size(852, 619)
+        Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.PictureBox11)
         Me.Controls.Add(Me.PictureBox9)
@@ -434,6 +445,7 @@ Partial Class frmLawyer
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -470,4 +482,5 @@ Partial Class frmLawyer
     Friend WithEvents PictureBox9 As PictureBox
     Friend WithEvents PictureBox11 As PictureBox
     Friend WithEvents Label10 As Label
+    Friend WithEvents DataGridView1 As DataGridView
 End Class

@@ -21,5 +21,7 @@ Public Class frmAddClient
         cmd.CommandText = "insert into Client values ('" + txtName.Text + "', '" + txtBirthdate.Text + "', '" + txtEmail.Text + "', '" + txtAddress.Text + "', '" + comboGender.Text + "', '" + txtPhone.Text + "', '" + txtNationality.Text + "', '" + txtPassword.Text + "', '" + txtNationalIDNumber.Text + "')"
         cmd.ExecuteNonQuery()
         MessageBox.Show("Client Inserted Successfully")
+        frmLawyer.Show()
+        Me.Close()
     End Sub
 End Class

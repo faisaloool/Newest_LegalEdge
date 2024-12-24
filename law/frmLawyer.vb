@@ -17,5 +17,23 @@ Public Class frmLawyer
         lblNationality.Text = lblNationality.Tag + nationality
     End Sub
 
+    Private Sub ChangePasswordToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChangePasswordToolStripMenuItem.Click
+        frmUpdatePassword.Show()
+        Me.Hide()
+    End Sub
 
+    Private Sub LogoutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LogoutToolStripMenuItem.Click
+        frmHome.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub NewClientToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewClientToolStripMenuItem.Click
+        frmAddClient.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub NewCaseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewCaseToolStripMenuItem.Click
+        frmAddCase.Show()
+        Me.Hide()
+    End Sub
 End Class

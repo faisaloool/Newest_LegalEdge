@@ -182,7 +182,7 @@ Partial Class frmAddCase
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(41, 16)
         Me.Label9.TabIndex = 32
-        Me.Label9.Text = "Titel"
+        Me.Label9.Text = "Title"
         '
         'Label8
         '

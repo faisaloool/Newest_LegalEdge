@@ -1,4 +1,6 @@
-﻿Public Class frmEditCase
+﻿Imports System.Data
+Imports System.Data.SqlClient
+Public Class frmEditCase
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
         ComboBox1.Items.Add("Criminal")
         ComboBox1.Items.Add("Civil")

@@ -1,5 +1,5 @@
 ﻿Imports System.Data.SqlClient
-
+Imports System.Data
 Public Class frmLawyer
     Dim con As New SqlConnection
     Dim cmd As New SqlCommand

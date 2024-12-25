@@ -1,10 +1,9 @@
 ﻿Imports System.Data.SqlClient
+Imports System.Data
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Public Class frmAddLawyer
-    Dim con As New SqlConnection
     Dim cmd As New SqlCommand
     Private Sub Form14_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\USER\Desktop\meow\law\Database1.mdf;Integrated Security=True"
         If con.State = ConnectionState.Open Then
             con.Close()
         End If

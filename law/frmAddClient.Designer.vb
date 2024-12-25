@@ -136,7 +136,7 @@ Partial Class frmAddClient
         Me.txtName.Margin = New System.Windows.Forms.Padding(2)
         Me.txtName.Name = "txtName"
         Me.txtName.Size = New System.Drawing.Size(148, 24)
-        Me.txtName.TabIndex = 68
+        Me.txtName.TabIndex = 0
         Me.txtName.Text = "Client Name"
         Me.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -149,7 +149,7 @@ Partial Class frmAddClient
         Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(116, 31)
-        Me.Button1.TabIndex = 77
+        Me.Button1.TabIndex = 9
         Me.Button1.Text = "Add Client"
         Me.Button1.UseVisualStyleBackColor = False
         '
@@ -162,7 +162,7 @@ Partial Class frmAddClient
         Me.txtNationalIDNumber.Margin = New System.Windows.Forms.Padding(2)
         Me.txtNationalIDNumber.Name = "txtNationalIDNumber"
         Me.txtNationalIDNumber.Size = New System.Drawing.Size(148, 22)
-        Me.txtNationalIDNumber.TabIndex = 78
+        Me.txtNationalIDNumber.TabIndex = 1
         Me.txtNationalIDNumber.Text = "National ID Number"
         Me.txtNationalIDNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -175,7 +175,7 @@ Partial Class frmAddClient
         Me.txtEmail.Margin = New System.Windows.Forms.Padding(2)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(148, 24)
-        Me.txtEmail.TabIndex = 79
+        Me.txtEmail.TabIndex = 2
         Me.txtEmail.Text = "Email"
         Me.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -188,7 +188,7 @@ Partial Class frmAddClient
         Me.txtBirthdate.Margin = New System.Windows.Forms.Padding(2)
         Me.txtBirthdate.Name = "txtBirthdate"
         Me.txtBirthdate.Size = New System.Drawing.Size(148, 24)
-        Me.txtBirthdate.TabIndex = 82
+        Me.txtBirthdate.TabIndex = 5
         Me.txtBirthdate.Text = "Birthdate"
         Me.txtBirthdate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -201,7 +201,7 @@ Partial Class frmAddClient
         Me.txtNationality.Margin = New System.Windows.Forms.Padding(2)
         Me.txtNationality.Name = "txtNationality"
         Me.txtNationality.Size = New System.Drawing.Size(148, 24)
-        Me.txtNationality.TabIndex = 81
+        Me.txtNationality.TabIndex = 4
         Me.txtNationality.Text = "Nationality"
         Me.txtNationality.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -214,7 +214,7 @@ Partial Class frmAddClient
         Me.txtPhone.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPhone.Name = "txtPhone"
         Me.txtPhone.Size = New System.Drawing.Size(148, 24)
-        Me.txtPhone.TabIndex = 80
+        Me.txtPhone.TabIndex = 3
         Me.txtPhone.Text = "Phone Number"
         Me.txtPhone.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -227,7 +227,7 @@ Partial Class frmAddClient
         Me.txtPassword.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.Size = New System.Drawing.Size(148, 24)
-        Me.txtPassword.TabIndex = 85
+        Me.txtPassword.TabIndex = 8
         Me.txtPassword.Text = "Password"
         Me.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -240,7 +240,7 @@ Partial Class frmAddClient
         Me.txtAddress.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAddress.Name = "txtAddress"
         Me.txtAddress.Size = New System.Drawing.Size(148, 24)
-        Me.txtAddress.TabIndex = 84
+        Me.txtAddress.TabIndex = 7
         Me.txtAddress.Text = "Address"
         Me.txtAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -255,7 +255,7 @@ Partial Class frmAddClient
         Me.comboGender.Margin = New System.Windows.Forms.Padding(2)
         Me.comboGender.Name = "comboGender"
         Me.comboGender.Size = New System.Drawing.Size(148, 24)
-        Me.comboGender.TabIndex = 86
+        Me.comboGender.TabIndex = 6
         Me.comboGender.Text = "Gender"
         '
         'frmAddClient

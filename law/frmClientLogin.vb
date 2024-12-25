@@ -5,7 +5,7 @@ Public Class frmClientLogin
     Dim cmd As New SqlCommand
     Dim i As Int32
     Private Sub frmClientLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\albab\OneDrive\Desktop\law newest\new law\law (2)\law\law\LegalEdgeDatabase.mdf;Integrated Security=True"
+        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\USER\Desktop\meow\law\Database1.mdf;Integrated Security=True"
         If con.State = ConnectionState.Open Then
             con.Close()
         End If

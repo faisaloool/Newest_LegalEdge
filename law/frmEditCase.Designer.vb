@@ -61,7 +61,7 @@ Partial Class frmEditCase
         Me.Label1.Location = New System.Drawing.Point(564, 44)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(148, 32)
+        Me.Label1.Size = New System.Drawing.Size(182, 40)
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "Edit Case" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -73,7 +73,7 @@ Partial Class frmEditCase
         Me.Label2.Location = New System.Drawing.Point(48, 161)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(137, 16)
+        Me.Label2.Size = New System.Drawing.Size(169, 20)
         Me.Label2.TabIndex = 8
         Me.Label2.Text = "Case Description:"
         '
@@ -85,7 +85,7 @@ Partial Class frmEditCase
         Me.Label3.Location = New System.Drawing.Point(48, 231)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(86, 16)
+        Me.Label3.Size = New System.Drawing.Size(105, 20)
         Me.Label3.TabIndex = 9
         Me.Label3.Text = "Statement:"
         '
@@ -97,7 +97,7 @@ Partial Class frmEditCase
         Me.Label4.Location = New System.Drawing.Point(48, 298)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(110, 16)
+        Me.Label4.Size = New System.Drawing.Size(134, 20)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "Lawyer Name:"
         '
@@ -109,7 +109,7 @@ Partial Class frmEditCase
         Me.Label5.Location = New System.Drawing.Point(48, 355)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(107, 16)
+        Me.Label5.Size = New System.Drawing.Size(133, 20)
         Me.Label5.TabIndex = 11
         Me.Label5.Text = "Starting Date:"
         '
@@ -121,7 +121,7 @@ Partial Class frmEditCase
         Me.Label6.Location = New System.Drawing.Point(704, 357)
         Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(100, 16)
+        Me.Label6.Size = New System.Drawing.Size(126, 20)
         Me.Label6.TabIndex = 12
         Me.Label6.Text = "Ending Date:"
         '
@@ -133,7 +133,7 @@ Partial Class frmEditCase
         Me.Label7.Location = New System.Drawing.Point(51, 404)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(75, 16)
+        Me.Label7.Size = New System.Drawing.Size(94, 20)
         Me.Label7.TabIndex = 13
         Me.Label7.Text = "Decision:"
         '
@@ -145,7 +145,7 @@ Partial Class frmEditCase
         Me.Label8.Location = New System.Drawing.Point(51, 507)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(82, 16)
+        Me.Label8.Size = New System.Drawing.Size(102, 20)
         Me.Label8.TabIndex = 14
         Me.Label8.Text = "Case Type"
         '
@@ -157,7 +157,7 @@ Partial Class frmEditCase
         Me.Label9.Location = New System.Drawing.Point(704, 507)
         Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(41, 16)
+        Me.Label9.Size = New System.Drawing.Size(50, 20)
         Me.Label9.TabIndex = 15
         Me.Label9.Text = "Title"
         '
@@ -169,7 +169,7 @@ Partial Class frmEditCase
         Me.TextBox1.ForeColor = System.Drawing.Color.White
         Me.TextBox1.Location = New System.Drawing.Point(285, 161)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(295, 17)
+        Me.TextBox1.Size = New System.Drawing.Size(295, 22)
         Me.TextBox1.TabIndex = 16
         '
         'TextBox2
@@ -180,7 +180,7 @@ Partial Class frmEditCase
         Me.TextBox2.ForeColor = System.Drawing.Color.White
         Me.TextBox2.Location = New System.Drawing.Point(285, 231)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(295, 17)
+        Me.TextBox2.Size = New System.Drawing.Size(295, 22)
         Me.TextBox2.TabIndex = 17
         '
         'TextBox3
@@ -191,7 +191,7 @@ Partial Class frmEditCase
         Me.TextBox3.ForeColor = System.Drawing.Color.White
         Me.TextBox3.Location = New System.Drawing.Point(285, 298)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(295, 17)
+        Me.TextBox3.Size = New System.Drawing.Size(295, 22)
         Me.TextBox3.TabIndex = 18
         '
         'TextBox4
@@ -202,7 +202,7 @@ Partial Class frmEditCase
         Me.TextBox4.ForeColor = System.Drawing.Color.White
         Me.TextBox4.Location = New System.Drawing.Point(285, 355)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(295, 17)
+        Me.TextBox4.Size = New System.Drawing.Size(295, 22)
         Me.TextBox4.TabIndex = 19
         '
         'TextBox5
@@ -225,7 +225,7 @@ Partial Class frmEditCase
         Me.TextBox6.ForeColor = System.Drawing.Color.White
         Me.TextBox6.Location = New System.Drawing.Point(857, 355)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(295, 17)
+        Me.TextBox6.Size = New System.Drawing.Size(295, 22)
         Me.TextBox6.TabIndex = 21
         '
         'TextBox7
@@ -236,7 +236,7 @@ Partial Class frmEditCase
         Me.TextBox7.ForeColor = System.Drawing.Color.White
         Me.TextBox7.Location = New System.Drawing.Point(857, 504)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(295, 17)
+        Me.TextBox7.Size = New System.Drawing.Size(295, 22)
         Me.TextBox7.TabIndex = 22
         '
         'ComboBox1
@@ -247,7 +247,7 @@ Partial Class frmEditCase
         Me.ComboBox1.Items.AddRange(New Object() {"Environmental"})
         Me.ComboBox1.Location = New System.Drawing.Point(285, 504)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(316, 24)
+        Me.ComboBox1.Size = New System.Drawing.Size(316, 28)
         Me.ComboBox1.TabIndex = 23
         '
         'Button1
@@ -278,7 +278,7 @@ Partial Class frmEditCase
         Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(72, Byte), Integer))
         Me.Label10.Location = New System.Drawing.Point(12, 9)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(86, 32)
+        Me.Label10.Size = New System.Drawing.Size(106, 40)
         Me.Label10.TabIndex = 26
         Me.Label10.Text = "LegalEdge " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Associates"
         '
@@ -287,7 +287,7 @@ Partial Class frmEditCase
         Me.Label11.AutoSize = True
         Me.Label11.Location = New System.Drawing.Point(554, 342)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(0, 16)
+        Me.Label11.Size = New System.Drawing.Size(0, 20)
         Me.Label11.TabIndex = 25
         '
         'MenuStrip1
@@ -301,7 +301,7 @@ Partial Class frmEditCase
         Me.MenuStrip1.Location = New System.Drawing.Point(807, 9)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(6, 1, 0, 1)
-        Me.MenuStrip1.Size = New System.Drawing.Size(405, 31)
+        Me.MenuStrip1.Size = New System.Drawing.Size(507, 38)
         Me.MenuStrip1.TabIndex = 28
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -309,33 +309,33 @@ Partial Class frmEditCase
         '
         Me.HomeToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(72, Byte), Integer))
         Me.HomeToolStripMenuItem.Name = "HomeToolStripMenuItem"
-        Me.HomeToolStripMenuItem.Size = New System.Drawing.Size(88, 29)
+        Me.HomeToolStripMenuItem.Size = New System.Drawing.Size(111, 36)
         Me.HomeToolStripMenuItem.Text = "Home"
         '
         'ServeToolStripMenuItem
         '
         Me.ServeToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(72, Byte), Integer))
         Me.ServeToolStripMenuItem.Name = "ServeToolStripMenuItem"
-        Me.ServeToolStripMenuItem.Size = New System.Drawing.Size(114, 29)
+        Me.ServeToolStripMenuItem.Size = New System.Drawing.Size(145, 36)
         Me.ServeToolStripMenuItem.Text = "Services"
         '
         'ContactToolStripMenuItem
         '
         Me.ContactToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(72, Byte), Integer))
         Me.ContactToolStripMenuItem.Name = "ContactToolStripMenuItem"
-        Me.ContactToolStripMenuItem.Size = New System.Drawing.Size(110, 29)
+        Me.ContactToolStripMenuItem.Size = New System.Drawing.Size(137, 36)
         Me.ContactToolStripMenuItem.Text = "Contact"
         '
         'LoginToolStripMenuItem
         '
         Me.LoginToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(72, Byte), Integer))
         Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
-        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(85, 29)
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(106, 36)
         Me.LoginToolStripMenuItem.Text = "Login"
         '
         'frmEditCase
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1213, 680)

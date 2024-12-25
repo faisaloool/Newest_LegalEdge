@@ -57,9 +57,10 @@ Partial Class frmAddCase
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Lucida Fax", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(386, 36)
+        Me.Label1.Location = New System.Drawing.Point(515, 44)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(149, 32)
+        Me.Label1.Size = New System.Drawing.Size(184, 40)
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "Add Case" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -68,10 +69,10 @@ Partial Class frmAddCase
         Me.Button1.BackColor = System.Drawing.Color.Black
         Me.Button1.Font = New System.Drawing.Font("Lucida Fax", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button1.Location = New System.Drawing.Point(334, 466)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button1.Location = New System.Drawing.Point(445, 574)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(254, 41)
+        Me.Button1.Size = New System.Drawing.Size(339, 50)
         Me.Button1.TabIndex = 41
         Me.Button1.Text = "Add New Case"
         Me.Button1.UseVisualStyleBackColor = False
@@ -82,10 +83,10 @@ Partial Class frmAddCase
         Me.ComboBox1.ForeColor = System.Drawing.Color.Black
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Environmental"})
-        Me.ComboBox1.Location = New System.Drawing.Point(194, 399)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.ComboBox1.Location = New System.Drawing.Point(259, 491)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(238, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(316, 24)
         Me.ComboBox1.TabIndex = 40
         '
         'TextBox7
@@ -94,10 +95,10 @@ Partial Class frmAddCase
         Me.TextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox7.Font = New System.Drawing.Font("Lucida Fax", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox7.ForeColor = System.Drawing.Color.White
-        Me.TextBox7.Location = New System.Drawing.Point(623, 399)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox7.Location = New System.Drawing.Point(831, 491)
+        Me.TextBox7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(221, 17)
+        Me.TextBox7.Size = New System.Drawing.Size(295, 22)
         Me.TextBox7.TabIndex = 39
         '
         'TextBox6
@@ -106,10 +107,10 @@ Partial Class frmAddCase
         Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox6.Font = New System.Drawing.Font("Lucida Fax", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox6.ForeColor = System.Drawing.Color.White
-        Me.TextBox6.Location = New System.Drawing.Point(623, 278)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox6.Location = New System.Drawing.Point(831, 342)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(221, 17)
+        Me.TextBox6.Size = New System.Drawing.Size(295, 22)
         Me.TextBox6.TabIndex = 38
         '
         'TextBox5
@@ -118,11 +119,11 @@ Partial Class frmAddCase
         Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox5.Font = New System.Drawing.Font("Lucida Fax", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox5.ForeColor = System.Drawing.Color.White
-        Me.TextBox5.Location = New System.Drawing.Point(194, 320)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox5.Location = New System.Drawing.Point(259, 394)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox5.Multiline = True
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(650, 57)
+        Me.TextBox5.Size = New System.Drawing.Size(867, 70)
         Me.TextBox5.TabIndex = 37
         '
         'TextBox4
@@ -131,10 +132,10 @@ Partial Class frmAddCase
         Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox4.Font = New System.Drawing.Font("Lucida Fax", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox4.ForeColor = System.Drawing.Color.White
-        Me.TextBox4.Location = New System.Drawing.Point(194, 278)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox4.Location = New System.Drawing.Point(259, 342)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(221, 17)
+        Me.TextBox4.Size = New System.Drawing.Size(295, 22)
         Me.TextBox4.TabIndex = 36
         '
         'TextBox3
@@ -143,10 +144,10 @@ Partial Class frmAddCase
         Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox3.Font = New System.Drawing.Font("Lucida Fax", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox3.ForeColor = System.Drawing.Color.White
-        Me.TextBox3.Location = New System.Drawing.Point(194, 232)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox3.Location = New System.Drawing.Point(259, 286)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(221, 17)
+        Me.TextBox3.Size = New System.Drawing.Size(295, 22)
         Me.TextBox3.TabIndex = 35
         '
         'TextBox2
@@ -155,10 +156,10 @@ Partial Class frmAddCase
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox2.Font = New System.Drawing.Font("Lucida Fax", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.ForeColor = System.Drawing.Color.White
-        Me.TextBox2.Location = New System.Drawing.Point(194, 177)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox2.Location = New System.Drawing.Point(259, 218)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(221, 17)
+        Me.TextBox2.Size = New System.Drawing.Size(295, 22)
         Me.TextBox2.TabIndex = 34
         '
         'TextBox1
@@ -167,10 +168,10 @@ Partial Class frmAddCase
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.Font = New System.Drawing.Font("Lucida Fax", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.ForeColor = System.Drawing.Color.White
-        Me.TextBox1.Location = New System.Drawing.Point(194, 120)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox1.Location = New System.Drawing.Point(259, 148)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(221, 17)
+        Me.TextBox1.Size = New System.Drawing.Size(295, 22)
         Me.TextBox1.TabIndex = 33
         '
         'Label9
@@ -178,9 +179,10 @@ Partial Class frmAddCase
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Lucida Fax", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Label9.Location = New System.Drawing.Point(508, 401)
+        Me.Label9.Location = New System.Drawing.Point(677, 494)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(41, 16)
+        Me.Label9.Size = New System.Drawing.Size(50, 20)
         Me.Label9.TabIndex = 32
         Me.Label9.Text = "Title"
         '
@@ -189,9 +191,10 @@ Partial Class frmAddCase
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Lucida Fax", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(22, 402)
+        Me.Label8.Location = New System.Drawing.Point(29, 495)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(82, 16)
+        Me.Label8.Size = New System.Drawing.Size(102, 20)
         Me.Label8.TabIndex = 31
         Me.Label8.Text = "Case Type"
         '
@@ -200,9 +203,10 @@ Partial Class frmAddCase
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Lucida Fax", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(22, 320)
+        Me.Label7.Location = New System.Drawing.Point(29, 394)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(75, 16)
+        Me.Label7.Size = New System.Drawing.Size(94, 20)
         Me.Label7.TabIndex = 30
         Me.Label7.Text = "Decision:"
         '
@@ -211,9 +215,10 @@ Partial Class frmAddCase
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Lucida Fax", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(508, 280)
+        Me.Label6.Location = New System.Drawing.Point(677, 345)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(100, 16)
+        Me.Label6.Size = New System.Drawing.Size(126, 20)
         Me.Label6.TabIndex = 29
         Me.Label6.Text = "Ending Date:"
         '
@@ -222,9 +227,10 @@ Partial Class frmAddCase
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Lucida Fax", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(16, 280)
+        Me.Label5.Location = New System.Drawing.Point(21, 345)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(107, 16)
+        Me.Label5.Size = New System.Drawing.Size(133, 20)
         Me.Label5.TabIndex = 28
         Me.Label5.Text = "Starting Date:"
         '
@@ -233,9 +239,10 @@ Partial Class frmAddCase
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Lucida Fax", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(16, 232)
+        Me.Label4.Location = New System.Drawing.Point(21, 286)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(110, 16)
+        Me.Label4.Size = New System.Drawing.Size(134, 20)
         Me.Label4.TabIndex = 27
         Me.Label4.Text = "Lawyer Name:"
         '
@@ -244,9 +251,10 @@ Partial Class frmAddCase
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Lucida Fax", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(20, 177)
+        Me.Label3.Location = New System.Drawing.Point(27, 218)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(86, 16)
+        Me.Label3.Size = New System.Drawing.Size(105, 20)
         Me.Label3.TabIndex = 26
         Me.Label3.Text = "Statement:"
         '
@@ -255,19 +263,20 @@ Partial Class frmAddCase
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Lucida Fax", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(16, 120)
+        Me.Label2.Location = New System.Drawing.Point(21, 148)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(137, 16)
+        Me.Label2.Size = New System.Drawing.Size(169, 20)
         Me.Label2.TabIndex = 25
         Me.Label2.Text = "Case Description:"
         '
         'PictureBox5
         '
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(93, 14)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox5.Location = New System.Drawing.Point(124, 17)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(44, 32)
+        Me.PictureBox5.Size = New System.Drawing.Size(59, 39)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox5.TabIndex = 44
         Me.PictureBox5.TabStop = False
@@ -277,20 +286,18 @@ Partial Class frmAddCase
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Lucida Fax", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(72, Byte), Integer))
-        Me.Label10.Location = New System.Drawing.Point(9, 15)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label10.Location = New System.Drawing.Point(12, 18)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(86, 32)
+        Me.Label10.Size = New System.Drawing.Size(106, 40)
         Me.Label10.TabIndex = 43
         Me.Label10.Text = "LegalEdge " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Associates"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(34, 33)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label11.Location = New System.Drawing.Point(45, 41)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(0, 13)
+        Me.Label11.Size = New System.Drawing.Size(0, 16)
         Me.Label11.TabIndex = 42
         '
         'MenuStrip1
@@ -301,10 +308,10 @@ Partial Class frmAddCase
         Me.MenuStrip1.Font = New System.Drawing.Font("Lucida Fax", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HomeToolStripMenuItem, Me.ServeToolStripMenuItem, Me.ContactToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(590, 9)
+        Me.MenuStrip1.Location = New System.Drawing.Point(787, 11)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(6, 1, 0, 1)
-        Me.MenuStrip1.Size = New System.Drawing.Size(320, 31)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 1, 0, 1)
+        Me.MenuStrip1.Size = New System.Drawing.Size(403, 38)
         Me.MenuStrip1.TabIndex = 45
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -312,29 +319,29 @@ Partial Class frmAddCase
         '
         Me.HomeToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(72, Byte), Integer))
         Me.HomeToolStripMenuItem.Name = "HomeToolStripMenuItem"
-        Me.HomeToolStripMenuItem.Size = New System.Drawing.Size(88, 29)
+        Me.HomeToolStripMenuItem.Size = New System.Drawing.Size(111, 36)
         Me.HomeToolStripMenuItem.Text = "Home"
         '
         'ServeToolStripMenuItem
         '
         Me.ServeToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(72, Byte), Integer))
         Me.ServeToolStripMenuItem.Name = "ServeToolStripMenuItem"
-        Me.ServeToolStripMenuItem.Size = New System.Drawing.Size(114, 29)
+        Me.ServeToolStripMenuItem.Size = New System.Drawing.Size(145, 36)
         Me.ServeToolStripMenuItem.Text = "Services"
         '
         'ContactToolStripMenuItem
         '
         Me.ContactToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(72, Byte), Integer))
         Me.ContactToolStripMenuItem.Name = "ContactToolStripMenuItem"
-        Me.ContactToolStripMenuItem.Size = New System.Drawing.Size(110, 29)
+        Me.ContactToolStripMenuItem.Size = New System.Drawing.Size(137, 36)
         Me.ContactToolStripMenuItem.Text = "Contact"
         '
         'frmAddCase
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(908, 525)
+        Me.ClientSize = New System.Drawing.Size(1211, 646)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.Label10)
@@ -357,7 +364,7 @@ Partial Class frmAddCase
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "frmAddCase"
         Me.Text = "Add Case"
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()

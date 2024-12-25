@@ -12,5 +12,7 @@
         ComboBox1.Items.Add("International")
     End Sub
 
+    Private Sub frmAddCase_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
 End Class

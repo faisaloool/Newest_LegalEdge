@@ -4,7 +4,7 @@ Public Class frmAddClient
     Dim con As New SqlConnection
     Dim cmd As New SqlCommand
     Private Sub Form5_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\albab\OneDrive\Desktop\law newest\new law\law (2)\law\law\LegalEdgeDatabase.mdf;Integrated Security=True"
+        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\USER\Desktop\meow\law\Database1.mdf;Integrated Security=True"
         If con.State = ConnectionState.Open Then
             con.Close()
         End If
@@ -13,8 +13,6 @@ Public Class frmAddClient
     Private Sub MyPRofileToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MyPRofileToolStripMenuItem.Click
 
     End Sub
-
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         cmd = con.CreateCommand()
         cmd.CommandType = CommandType.Text
@@ -23,5 +21,6 @@ Public Class frmAddClient
         MessageBox.Show("Client Inserted Successfully")
         frmLawyer.Show()
         Me.Close()
+        'meow
     End Sub
 End Class
